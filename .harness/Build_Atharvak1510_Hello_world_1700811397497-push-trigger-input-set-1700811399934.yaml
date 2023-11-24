@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Atharvak1510_Hello_world_1700811397497-push-trigger-input-set
+  identifier: Build_Atharvak1510_Hello_world_1700811397497pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Pythontest
+  pipeline:
+    identifier: Build_Atharvak1510_Hello_world_1700811397497
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
