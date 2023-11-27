@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Atharvak1510_Hello_world_1701097751582-pr-trigger-input-set
+  identifier: Build_Atharvak1510_Hello_world_1701097751582prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  pipeline:
+    identifier: Build_Atharvak1510_Hello_world_1701097751582
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
